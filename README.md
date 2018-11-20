@@ -13,6 +13,8 @@ manual para evitar eventuais erros.</p>
 
 <h3> MANUAL DO USUÁRIO </h3>
 
+<h6><em>Versão do Python: Paython 3.7.0</em></h6>
+
 <h4><strong>Atenção:</strong><em> O programa ler e salva os dados em um arquivo de texto que pode ser visto na própria pasta do codigo baixado, e como eles estão salvo no arquivo, se o usuário sair do programa e voltar de novo todo o seu "Progresso" vai estar salvo, a não ser que este o exclua, assim perdendo todos os dados. Com isso exclua somente, se necessário, o conteúdo dos arquivos, e <strong>NÃO</strong> exclua os arquivos de texto.</em></h4>
   
 <p> Ao entrar no repositório no site do github, clicaremos em em clonar or download e depois clicaremos em download .zip 
@@ -45,7 +47,7 @@ Logo após dar enter em principal.py vai exibir a tela principal do nosso sistem
 Essa tela exibe a data atual conforme a data do sistema operacional do computador, vai exibir a quantidade de veículos cadastrados,
 a quantidade de veículos alugados e a quantidade de veículos atrasados. Também vai conter as opções básicas para escolher.
 
-Se escolhermos a opção 1 de consulta de veículos e não tiver nenhum carro cadastrado vai exibir uma mensagem dizendo nenhum carro cadastrado, e assim vai voltar ao inicio do modulo.
+Se escolhermos a opção 1 de consulta de veículos e não tiver nenhum carro cadastrado vai exibir uma mensagem dizendo nenhum carro cadastrado, e assim vai voltar a tela inicial do programa.
 
 ![consulta sem dadoos](https://user-images.githubusercontent.com/43484645/48742654-f65dac00-ec46-11e8-9823-7ad2dc497bd7.PNG)
 
@@ -57,7 +59,7 @@ Tomando como exemplo dois carros cadastrados, voltamos ao inicio do módulo e lo
 
 ![consulta com dados](https://user-images.githubusercontent.com/43484645/48743588-d5975580-ec4a-11e8-97cb-bcc277b409a2.PNG)
 
-No modulo vai conter a consulta simples, e logo depois vai exibir uma mensagem perguntando se deseja uma consulta mais detalhada se o usuário digitar S ou s ele vai exibir todos os carros ja cadastrados, se o usuário digitar N ou n o programa volta a tela principal.
+No modulo vai conter a consulta simples, e logo depois vai exibir uma mensagem perguntando se deseja uma consulta mais detalhada se o usuário digitar "S" ou "s" ele vai exibir todos os carros ja cadastrados, se o usuário digitar "N" ou "n" o programa volta a tela principal.
 
 Agora vamos digitar a opção 3 para Alugar/Reservar veículos, e vamos reservar um veículo para uma certa data
 
